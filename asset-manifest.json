@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/landingPage/static/css/main.50304e2a.css",
+    "main.js": "/landingPage/static/js/main.1f3e6e7f.js",
+    "static/js/453.ed3810f9.chunk.js": "/landingPage/static/js/453.ed3810f9.chunk.js",
+    "static/media/service1.jpg": "/landingPage/static/media/service1.002ddfbce306977f7d95.jpg",
+    "static/media/service2.jpg": "/landingPage/static/media/service2.e423df30ec646ac2f8bb.jpg",
+    "static/media/service3.jpg": "/landingPage/static/media/service3.90a9e9a94abbda16e8a4.jpg",
+    "static/media/services.png": "/landingPage/static/media/services.9f2512e0057212f9dc53.png",
+    "static/media/photo1.png": "/landingPage/static/media/photo1.ca6deca87065244fa492.png",
+    "static/media/aboutUs.png": "/landingPage/static/media/aboutUs.dd0e47c9d9ddb0b0b2bd.png",
+    "static/media/logo-removebg-preview.png": "/landingPage/static/media/logo-removebg-preview.d7dc59f1b57e2203a065.png",
+    "index.html": "/landingPage/index.html",
+    "main.50304e2a.css.map": "/landingPage/static/css/main.50304e2a.css.map",
+    "main.1f3e6e7f.js.map": "/landingPage/static/js/main.1f3e6e7f.js.map",
+    "453.ed3810f9.chunk.js.map": "/landingPage/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50304e2a.css",
+    "static/js/main.1f3e6e7f.js"
+  ]
+}
