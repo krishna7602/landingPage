@@ -1,38 +1,140 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#photo1{
+  width: 100%;
+  /* position: relative; */
+}
+.container1{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.slogan{
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  font-size: 5vw;
+  font-family: cursive;
+}
+
+.description{
+  position: absolute;
+  bottom: 30%;
+  left:10%;
+  font-size: 1.5vw;
+}
+.logo{
+  position: absolute;
+  bottom: 80%;
+  height: 60px;
+  width: 60px;
+  left: 5%;
+}
+.logodescription{
+  position: absolute;
+  bottom: 82.5%;
+  left:9%;
+  font-size: 1.5vw;
+}
+.btn1{
+  position: absolute;
+  bottom: 80%;
+  right: 10%;
+}
+
+.aboutphoto{
+  margin-top: 20%;
+  height: 70%;
+  width: 100%;
+  padding-left: 2px;
+  border-radius: 100%;
+  box-shadow: 5px 20px 15px black;
+}
+
+
+.aboutUsPara{
+  margin-top: 10%;
+  text-align: center;
+  
+}
+.btn2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.servicesHeading{
+  text-align: center;
+  margin: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.services{
+  width:100%;
+}
+.newcard{
+  position: absolute;
+  bottom: 10%;
+}
+.card1{
+  width: 18rem;
+  left:5%;
+  
+}
+.card2{
+  width: 18rem;
+  left: 150%;
+  
+}
+
+.card3{
+  width:18rem;
+  left:330%;
+}
+
+.card-title{
+  color: black;
+}
+.card-text{
+  color: #000;
+}
+.experience{
+  text-align: center;
+  margin-top: 15%;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .slogan{
+    /* font-size: 30px; */
+    bottom: 75%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .description{
+    bottom: 72%;
   }
-  to {
-    transform: rotate(360deg);
+  .logo{
+    bottom: 90%;
+    
+  }
+  .logodescription{
+    bottom: 93%;
+    left: 20%;
+    font-size: 3vw;
+  }
+  .btn1{
+    display: none;
+  }
+
+  .d-flex{
+    flex-wrap: wrap;
+  }
+  .btn2{
+    text-align: center;
+  }
+  .newcard{
+    display: none;
   }
 }
